@@ -1,0 +1,26 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.cs text eol=crlf
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.resx text eol=crlf
+*.settings text eol=crlf
+*.config text eol=crlf
+*.md text eol=crlf
+*.txt text eol=crlf
+
+# Game scripts and CSV data may use Shift-JIS or another legacy encoding.
+*.erb binary
+*.ERB binary
+*.csv binary
+*.CSV binary
+
+*.exe binary
+*.dll binary
+*.pdb binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary

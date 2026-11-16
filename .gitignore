@@ -1,0 +1,22 @@
+# Visual Studio and build output
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# Local reference assemblies and compiler packages
+tools/packages/
+tools/analysis/*.exe
+
+# Local games, validation data, and unrelated worktrees
+testgame*/
+Game-localization-Skills/
+
+# Runtime logs and packaged releases
+*.log
+*.zip
+package-staging/
